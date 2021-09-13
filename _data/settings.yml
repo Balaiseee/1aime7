@@ -1,26 +1,26 @@
 basic_settings:
-  site_title: Duet
-  favicon_image: /images/favicon.png
+  site_title: 1Aime7
+  favicon_image:
 
 header_settings:
-  logo_image: 
-  logo_width: 200
+  logo_image:
+  logo_width:
 
 menu_settings:
   menu_items:
-    - title: 'Projects'
-      url: '/'
-    - title: 'Blog'
-      url: '/blog/'
-    - title: 'About'
-      url: '/about'
-    - title: 'Contact'
-      url: '/contact'
+    - title: 'Mood'
+      url: '/mood/'
+    - title: 'Flow'
+      url: '/flow'
+    - title: 'Raffle'
+      url: '/raffle'
+    - title: 'RDV'
+      url: '/rdv'
 
 footer_settings:
-  logo_image: 
-  logo_width: 200
-  footer_tagline: A beautiful, minimal two-column portfolio Jekyll theme
+  logo_image:
+  logo_width:
+  footer_tagline:
 
 grid_settings:
   overlay_opacity: 0.8
@@ -28,9 +28,9 @@ grid_settings:
 
 contact_settings:
   form_action: ''
-  confirmation_url: '/thanks'
+  confirmation_url:
   email_subject: 'Contact form submission'
-  send_button_text: 'Send Message'
+  send_button_text: 'Envoyer'
 
 social_settings:
   facebook_url: ''
@@ -74,22 +74,26 @@ color_settings:
   error_color: '#D64541'
 
 font_settings:
-  font_embed: '<link href="https://fonts.googleapis.com/css?family=Muli:300,400,600,700" rel="stylesheet">'
-  title_font: '"Muli", sans-serif'
-  body_font: '"Muli", sans-serif'
+  font_embed: '<link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
+               <link href="https://fonts.googleapis.com/css2?family=Codystar&display=swap" rel="stylesheet">
+               <link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Extra+Condensed&display=swap" rel="stylesheet">'
+  title_font: '"Codystar", cursive'
+  logo_font: '"Monoton", cursive'
+  menu_font: '"Codystar", cursive'
+  body_font: '"Fira Sans Extra Condensed", sans-serif;'
   regular_weight: 400
-  bold_weight: 600
+  bold_weight: 400
   site_title:
-    small_size: 25
-    medium_size: 30
-    large_size: 35
-    weight: 700
-    letter_spacing: -0.02
+    small_size: 40
+    medium_size: 50
+    large_size: 60
+    weight: 400
+    letter_spacing: 0
   menu:
-    small_size: 30
-    medium_size: 15
-    large_size: 17
-    weight: 600
+    small_size: 60
+    medium_size: 25
+    large_size: 25
+    weight: 400
     letter_spacing: 0
   grid_item_title:
     small_size: 22
@@ -148,7 +152,7 @@ font_settings:
   p:
     small_size: 15
     medium_size: 17
-    large_size: 19
+    large_size: 18
     weight: 400
     letter_spacing: 0
     line_height: 1.6

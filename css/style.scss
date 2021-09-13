@@ -33,8 +33,11 @@ $error-color: {{ site.data.settings.color_settings.error_color }};
 
 // Fonts
 
+$logo-font: {{ site.data.settings.font_settings.logo_font }};
+$menu-font: {{ site.data.settings.font_settings.menu_font }};
 $body-font: {{ site.data.settings.font_settings.body_font }};
 $title-font: {{ site.data.settings.font_settings.title_font }};
+
 
 $regular-weight: {{ site.data.settings.font_settings.regular_weight }};
 $bold-weight: {{ site.data.settings.font_settings.bold_weight }};
@@ -156,5 +159,3 @@ $grid-spacing: {{ site.data.settings.grid_settings.grid_spacing }}px;
 
 @import "_includes/_portfolio";
 @import "_includes/_blog";
-
-
