@@ -5,10 +5,10 @@ title: Raffle
 ## Dernière raffle
 
 <div class="gallery" data-columns="2">
-	<img class="lazy" src="/images/raffle/1-crop.jpg">
-  <img class="lazy" src="/images/raffle/4.jpg">
-  <img class="lazy" src="/images/raffle/3-crop.jpg">
-  <img class="lazy" src="/images/raffle/2-crop.jpg">
+	<img class="lazyload" src="/images/raffle/1-crop.jpg">
+  <img class="lazyload" src="/images/raffle/4.jpg">
+  <img class="lazyload" src="/images/raffle/3-crop.jpg">
+  <img class="lazyload" src="/images/raffle/2-crop.jpg">
 </div>
 <hr>
 ## Prochaine raffle

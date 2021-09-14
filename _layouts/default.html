@@ -1,6 +1,6 @@
 <!doctype html>
 
-<html class="no-js" lang="en">
+<html class="no-js" lang="fr">
 
 <head>
 
@@ -33,6 +33,9 @@
 	<meta property="og:title" content="{% if page.url == "/" %}{{ site.data.settings.basic_settings.site_title }} – {{ page.title }}{% else %}{{ page.title }} – {{ site.data.settings.basic_settings.site_title }}{% endif %}" />
 	<meta property="og:description" content="{{ page.description | strip_html | xml_escape }}" />
 	<meta property="og:image" content="{{ page.featured_image | absolute_url }}" />
+
+	<!-- Lazy Loading -->
+  <script src="{{ '/js/lazysizes.min.js' | relative_url }}" async=""></script>
 
 	{% if site.data.settings.font_settings.font_embed %}
 	<!-- Font Embed Code -->
@@ -95,7 +98,6 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script src="{{ '/js/plugins-min.js' | relative_url }}"></script>
 	<script src="{{ '/js/duet-min.js' | relative_url }}"></script>
-	<script src="{{ '/js/lazyload.js' | relative_url }}"></script>
 	{% if site.data.settings.advanced_settings.footer_js %}
 	<!-- Extra Footer JS Code -->
 	{{ site.data.settings.advanced_settings.footer_js }}

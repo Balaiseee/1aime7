@@ -6,24 +6,27 @@ title: Story
 <section class="intro">
   <div class="wrap">
     <h1 style="text-align: center;">Un nouveau récit</h1>
-    <p style="text-align: center;">Parce que la beauté commence au moment où tu décides d’être toi-même, parce que nous sommes tous uniques, 1Aïme7 crée des parures en un seul exemplaire !</p>
+    <p style="text-align: center;">
+      Parce que la beauté commence au moment où tu décides d’être toi-même,
+      parce que nous sommes tous uniques, 1Aïme7 crée des parures en un seul
+      exemplaire !
+    </p>
   </div>
 </section>
 
 <section class="portfolio">
   <div class="content-wrap portfolio-wrap">
-    {% assign projects = site.projects | sort:"weight" %}
-		{% for project in projects %}
+    {% assign projects = site.projects | sort:"weight" %} {% for project in
+    projects %}
 
     <div class="portfolio-item">
       <a class="portfolio-item__link" href="{{ project.url | relative_url }}">
         <div class="portfolio-item__image">
-          <picture>
-	    <source media="(min-width: 414px)" data-srcset="{{ project.featured_image_tablet | relative_url }} 447w" />
-	    <source media="(min-width: 1024px)" data-srcset="{{ project.featured_image_desktop | relative_url }} 877w" />
-	    <source media="(min-width: 1980px)" data-srcset="{{ project.featured_image_4k | relative_url }} 1768w" />
-	    <img alt="{{ project.title }}" class="lazy" data-src="{{ project.featured_image_mobile | relative_url }}" />
-	  </picture>
+          <img
+            sizes="50vw"
+            src="{{ project.featured_image_mobile_low | relative_url }}"
+            srcset="{{ project.featured_image_mobile_low | relative_url }} 165w, {{ project.featured_image_mobile_high | relative_url }} 192w, {{ project.featured_image_tablet_low | relative_url }} 286w, {{ project.featured_image_laptop_low | relative_url }} 446w, {{ project.featured_image_tablet_high | relative_url }} 562w, {{ project.featured_image_laptop_med | relative_url }} 667w, {{ project.featured_image_laptop_high | relative_url }} 850w"
+          />
         </div>
 
         <div class="portfolio-item__content">

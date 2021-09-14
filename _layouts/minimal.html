@@ -23,6 +23,9 @@
 	<meta property="og:description" content="{{ page.description | strip_html | xml_escape }}" />
 	<meta property="og:image" content="{{ page.featured_image | absolute_url }}" />
 
+  <!-- Lazy Loading -->
+  <script src="{{ '/js/lazysizes.min.js' | relative_url }}" async=""></script>
+
 	{% if site.data.settings.font_settings.font_embed %}
 	<!-- Font Embed Code -->
 	{{ site.data.settings.font_settings.font_embed }}
@@ -76,7 +79,6 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script src="{{ '/js/plugins-min.js' | relative_url }}"></script>
 	<script src="{{ '/js/duet-min.js' | relative_url }}"></script>
-	<script src="{{ '/js/lazyload.js' | relative_url }}"></script>
 </body>
 
 </html>
