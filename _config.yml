@@ -1,18 +1,16 @@
 site: 1Aime7
 
-url: 
-baseurl: 
+url:
+baseurl:
 
 collections:
   pages:
     output: true
     permalink: /:name
   posts:
-    output: true
-    permalink: /blog/:slug
+    output: false
   projects:
-    output: true
-    permalink: /project/:slug
+    output: false
 
 defaults:
   -
@@ -44,7 +42,7 @@ markdown: kramdown
 kramdown:
   input: GFM
   syntax_highlighter: rouge
-  
+
 sass:
   style: compressed
 
@@ -54,4 +52,12 @@ plugins:
 
 paginate: 6
 paginate_path: "/blog/page:num/"
-  
+
+# Minify HTML
+compress_html:
+ clippings: []
+ comments: ["<!-- ", " -->"]
+ endings: []
+ blanklines: false
+ profile: false
+ startings: []
