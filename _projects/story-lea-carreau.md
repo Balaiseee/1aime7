@@ -3,7 +3,10 @@ layout: page
 title: 'Tiens toi à carreau'
 subtitle: '1IEL7'
 weight: 3
-featured_image: '/images/story/tile-lea.jpg'
+featured_image_mobile: '/images/story/mobile/tile-lea.jpg'
+featured_image_tablet: '/images/story/tablet/tile-lea.jpg'
+featured_image_desktop: '/images/story/desktop/tile-lea.jpg'
+featured_image_4k: '/images/story/4k/tile-lea.jpg'
 ---
 
 <div class="gallery" data-columns="2">

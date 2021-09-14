@@ -18,10 +18,12 @@ title: Story
     <div class="portfolio-item">
       <a class="portfolio-item__link" href="{{ project.url | relative_url }}">
         <div class="portfolio-item__image">
-          <img
-            src="{{ project.featured_image | relative_url }}"
-            alt="{{ project.title }}"
-          />
+          <picture>
+	    <source media="(min-width: 414px)" data-srcset="{{ project.featured_image_tablet | relative_url }} 447w" />
+	    <source media="(min-width: 1024px)" data-srcset="{{ project.featured_image_desktop | relative_url }} 877w" />
+	    <source media="(min-width: 1980px)" data-srcset="{{ project.featured_image_4k | relative_url }} 1768w" />
+	    <img alt="{{ project.title }}" class="lazy" data-src="{{ project.featured_image_mobile | relative_url }}" />
+	  </picture>
         </div>
 
         <div class="portfolio-item__content">

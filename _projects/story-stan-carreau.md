@@ -3,7 +3,10 @@ layout: page
 title: 'Tiens toi à carreau'
 subtitle: '1YEL7'
 weight : 0
-featured_image: '/images/story/tile-stan.jpg'
+featured_image_mobile: '/images/story/mobile/tile-stan.jpg'
+featured_image_tablet: '/images/story/tablet/tile-stan.jpg'
+featured_image_desktop: '/images/story/desktop/tile-stan.jpg'
+featured_image_4k: '/images/story/4k/tile-stan.jpg'
 ---
 
 <div class="gallery" data-columns="2">

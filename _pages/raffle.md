@@ -15,6 +15,6 @@ title: Raffle
 
 La prochaine Capsule « noir et blanc » est en cours de création. Seulement 7 parures seront réalisées.
 
-Pour être informé(e) dès parution de la capsule et du lancement de la raffle :
+Pour être informé(e) de la parution de la capsule et du lancement de la raffle :
 
 {% include raffle-form.html %}

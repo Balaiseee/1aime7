@@ -3,7 +3,10 @@ layout: page
 title: 'Capsule des émotions'
 subtitle: '1YOL7'
 weight: 1
-featured_image: '/images/story/emotion-lea.jpg'
+featured_image_mobile: '/images/story/mobile/emotion-lea.jpg'
+featured_image_tablet: '/images/story/tablet/emotion-lea.jpg'
+featured_image_desktop: '/images/story/desktop/emotion-lea.jpg'
+featured_image_4k: '/images/story/4k/emotion-lea.jpg'
 ---
 
 <div class="gallery" data-columns="2">

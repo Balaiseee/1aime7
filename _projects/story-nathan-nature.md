@@ -3,7 +3,10 @@ layout: page
 title: 'Capsule des émotions'
 subtitle: '1ILLE7'
 weight: 4
-featured_image: '/images/story/emotion-nathan.jpg'
+featured_image_mobile: '/images/story/mobile/emotion-nathan.jpg'
+featured_image_tablet: '/images/story/tablet/emotion-nathan.jpg'
+featured_image_desktop: '/images/story/desktop/emotion-nathan.jpg'
+featured_image_4k: '/images/story/4k/emotion-nathan.jpg'
 ---
 
 <div class="gallery" data-columns="2">
