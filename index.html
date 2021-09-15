@@ -22,11 +22,7 @@ title: Story
     <div class="portfolio-item">
       <a class="portfolio-item__link" href="{{ project.url_path | relative_url }}">
         <div class="portfolio-item__image">
-          <img
-            sizes="50vw"
-            src="{{ project.featured_image_mobile_low | relative_url }}"
-            srcset="{{ project.featured_image_mobile_low | relative_url }} 165w, {{ project.featured_image_mobile_high | relative_url }} 192w, {{ project.featured_image_tablet_low | relative_url }} 286w, {{ project.featured_image_laptop_low | relative_url }} 446w, {{ project.featured_image_tablet_high | relative_url }} 562w, {{ project.featured_image_laptop_med | relative_url }} 667w, {{ project.featured_image_laptop_high | relative_url }} 850w"
-          />
+          <img src="{{ project.featured_image_laptop_high | relative_url }}" alt="{{ project.title }}">
         </div>
 
         <div class="portfolio-item__content">
