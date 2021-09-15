@@ -1,21 +1,21 @@
 basic_settings:
   site_title: 1Aime7
-  favicon_image:
+  favicon_image: /images/favicon.png
 
 header_settings:
-  logo_image:
-  logo_width:
+  logo_image: 
+  logo_width: 200
 
 menu_settings:
   menu_items:
     - title: 'Mood'
-      url: '/mood/'
+      url: '/mood'
     - title: 'Flow'
-      url: '/flow/'
+      url: '/flow'
     - title: 'Raffle'
-      url: '/raffle/'
+      url: '/raffle'
     - title: 'RDV'
-      url: '/rdv/'
+      url: '/rdv'
 
 footer_settings:
   footer_copyright: 'Photographe: Flavia Raddavero'
@@ -26,9 +26,9 @@ grid_settings:
 
 contact_settings:
   form_action: ''
-  confirmation_url:
+  confirmation_url: '/thanks'
   email_subject: 'Contact form submission'
-  send_button_text: 'Envoyer'
+  send_button_text: 'Send Message'
 
 social_settings:
   facebook_url: ''
@@ -150,7 +150,7 @@ font_settings:
   p:
     small_size: 15
     medium_size: 17
-    large_size: 18
+    large_size: 19
     weight: 400
     letter_spacing: 0
     line_height: 1.6
@@ -166,7 +166,7 @@ font_settings:
     letter_spacing: 0
 
 advanced_settings:
-  ajax_loading: false
+  ajax_loading: true
   analytics_code: ""
   custom_styles: ".no-scrollbar {border: 0px;overflow-y: scroll;}.no-scrollbar::-webkit-scrollbar {display: none;}.no-scrollbar {-ms-overflow-style: none;scrollbar-width: none;}"
   header_js: ""

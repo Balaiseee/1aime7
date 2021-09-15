@@ -1,7 +1,7 @@
-site: 1Aime7
+site: Duet Jekyll Theme
 
-url:
-baseurl: "/"
+url: 
+baseurl: 
 
 collections:
   pages:
@@ -17,32 +17,39 @@ defaults:
     scope:
       path: ""
     values:
-      layout: "minimal"
+      layout: "default"
   -
     scope:
       path: ""
       type: "pages"
     values:
       layout: "page"
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  -
+    scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "project"
 
 markdown: kramdown
 
 kramdown:
   input: GFM
   syntax_highlighter: rouge
-
+  
 sass:
   style: compressed
 
 plugins:
+  - jekyll-paginate
   - jekyll-sitemap
 
-
-# Minify HTML
-compress_html:
- clippings: []
- comments: ["<!-- ", " -->"]
- endings: []
- blanklines: false
- profile: false
- startings: []
+paginate: 6
+paginate_path: "/blog/page:num/"
+  

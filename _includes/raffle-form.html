@@ -9,9 +9,8 @@
   <input
     type="email"
     name="email"
-    placeholder="Ton mél..."
     class="contact-form__input"
-  />
+  >
 </div>
 
 
@@ -20,9 +19,8 @@
       <input
         type="text"
         name="nom"
-        placeholder="Ton nom..."
         class="contact-form__input"
-      />
+      >
     </div>
 
     <div class="contact-form__item">
@@ -30,9 +28,8 @@
       <input
         type="text"
         name="prenom"
-        placeholder="Ton prénom..."
         class="contact-form__input"
-      />
+      >
     </div>
 
     <div class="contact-form__item">
@@ -52,33 +49,33 @@
         name="telephone"
         pattern="^((\+\d{1,3}(-| )?\(?\d\)?(-| )?\d{1,5})|(\(?\d{2,6}\)?))(-| )?(\d{3,4})(-| )?(\d{4})(( x| ext)\d{1,5}){0,1}$"
         class="contact-form__input"
-      />
+      >
     </div>
 
     <input
       type="hidden"
       name="_next"
       value="{{ site.data.settings.contact_settings.confirmation_url }}"
-    />
+    >
     <input
       type="hidden"
       name="_subject"
       value="{{ site.data.settings.contact_settings.email_subject }}"
-    />
+    >
     <input
       type="text"
       name="_gotcha"
       style="display: none;"
       class="contact-form__gotcha"
       val=""
-    />
+    >
 
     <div class="contact-form__item">
       <input
         type="submit"
         value="{{ site.data.settings.contact_settings.send_button_text }}"
         class="button button--large"
-      />
+      >
     </div>
   </form>
 </div>

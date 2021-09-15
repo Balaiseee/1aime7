@@ -1,4 +1,45 @@
 ---
-layout: home
-title: Story
+layout: default
+title: A beautiful two-column Jekyll theme
+description: A beautiful, minimal two-column portfolio theme built for Jekyll. Duet makes your work look simply awesome.
+featured_image: /images/social.jpg
 ---
+
+<section class="intro">
+  <div class="wrap">
+    <h1 style="text-align: center;">Un nouveau récit</h1>
+    <p style="text-align: center;">
+      Parce que la beauté commence au moment où tu décides d’être toi-même,
+      parce que nous sommes tous uniques, 1Aïme7 crée des parures en un seul
+      exemplaire !
+    </p>
+  </div>
+</section>
+
+<section class="portfolio">
+  <div class="content-wrap portfolio-wrap">
+    {% assign projects = site.projects | sort:"weight" %} {% for project in
+    projects %}
+
+    <div class="portfolio-item">
+      <a class="portfolio-item__link" href="{{ project.url_path | relative_url }}">
+        <div class="portfolio-item__image">
+          <img
+            sizes="50vw"
+            src="{{ project.featured_image_mobile_low | relative_url }}"
+            srcset="{{ project.featured_image_mobile_low | relative_url }} 165w, {{ project.featured_image_mobile_high | relative_url }} 192w, {{ project.featured_image_tablet_low | relative_url }} 286w, {{ project.featured_image_laptop_low | relative_url }} 446w, {{ project.featured_image_tablet_high | relative_url }} 562w, {{ project.featured_image_laptop_med | relative_url }} 667w, {{ project.featured_image_laptop_high | relative_url }} 850w"
+          />
+        </div>
+
+        <div class="portfolio-item__content">
+          <div class="portfolio-item__info">
+            <h2 class="portfolio-item__title">{{ project.title }}</h2>
+            <p class="portfolio-item__subtitle">{{ project.subtitle }}</p>
+          </div>
+        </div>
+      </a>
+    </div>
+
+    {% endfor %}
+  </div>
+</section>
