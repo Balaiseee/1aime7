@@ -10,7 +10,8 @@ collections:
   posts:
     output: false
   projects:
-    output: false
+    output: true
+    permalink: /gallery/:slug
 
 defaults:
   -
