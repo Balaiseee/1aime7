@@ -18,9 +18,7 @@ menu_settings:
       url: '/rdv'
 
 footer_settings:
-  logo_image:
-  logo_width:
-  footer_tagline:
+  footer_copyright: 'Photographe: Flavia Raddavero'
 
 grid_settings:
   overlay_opacity: 0.8

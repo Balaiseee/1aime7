@@ -7,4 +7,4 @@ S'adonner à l'inspiration, sans la raisonner lorsqu'elle est capricieuse, juste
 
 Telle est la démarche de Saïma, l'alchimiste de la mode, au cours de ses longues déambulations.
 
-<img class="lazyload" src="/images/mood/saima.png" width="500" height="500" />
+<img class="lazyload" src="/images/mood/saima.webp" width="500" height="500" />
