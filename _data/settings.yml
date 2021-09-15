@@ -11,11 +11,11 @@ menu_settings:
     - title: 'Mood'
       url: '/mood/'
     - title: 'Flow'
-      url: '/flow'
+      url: '/flow/'
     - title: 'Raffle'
-      url: '/raffle'
+      url: '/raffle/'
     - title: 'RDV'
-      url: '/rdv'
+      url: '/rdv/'
 
 footer_settings:
   footer_copyright: 'Photographe: Flavia Raddavero'
@@ -166,7 +166,7 @@ font_settings:
     letter_spacing: 0
 
 advanced_settings:
-  ajax_loading: false
+  ajax_loading: true
   analytics_code: ""
   custom_styles: ".no-scrollbar {border: 0px;overflow-y: scroll;}.no-scrollbar::-webkit-scrollbar {display: none;}.no-scrollbar {-ms-overflow-style: none;scrollbar-width: none;}"
   header_js: ""
