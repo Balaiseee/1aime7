@@ -168,6 +168,6 @@ font_settings:
 advanced_settings:
   ajax_loading: true
   analytics_code: ""
-  custom_styles: ""
+  custom_styles: ".no-scrollbar {border: 0px;overflow-y: scroll;}.no-scrollbar::-webkit-scrollbar {display: none;}.no-scrollbar {-ms-overflow-style: none;scrollbar-width: none;}"
   header_js: ""
   footer_js: ""
